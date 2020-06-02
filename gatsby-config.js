@@ -4,6 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle:"N9N.me",
     siteTitleAlt: `n9n.me- niyasrahman's Blog`,
   },
   plugins: [
@@ -11,7 +12,6 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        siteTitle:"n9n.me",
         navigation: [
           {
             title: `Blog`,
