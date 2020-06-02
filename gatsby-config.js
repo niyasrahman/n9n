@@ -11,7 +11,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        siteTitle:"N9N.me",
+        siteTitle:"n9n.me",
         navigation: [
           {
             title: `Blog`,
